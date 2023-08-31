@@ -1,14 +1,3 @@
-marxes = ['Groucho', 'Chico', 'Harpo']
-print(', '.join(marxes)) # Groucho, Chico, Harpo
-
-friends = ['Ray', 'Najib', 'Grace', 'Dia', 'Julio']
-separator = ' * '
-joined = separator.join(friends)
-print(joined) # Ray * Najib * Grace
-
-sorted_friends = sorted(friends)
-print(sorted_friends) # ['Dia', 'Grace', 'Julio', 'Najib', 'Ray']
-print(friends) # ['Ray', 'Najib', 'Grace', 'Dia', 'Julio']
-friends.sort()
-print(friends) # ['Dia', 'Grace', 'Julio', 'Najib', 'Ray']
-
+numbers = [2, 1, 4.0, 3]
+numbers.sort()
+print(numbers) # [1, 2, 3, 4.0]
