@@ -7,6 +7,5 @@ print(ord('B'))  # 66
 print(ord('b'))  # 98
 
 # Using pow() to calculate the power and printing the results
-import math
 print(pow(4, 2))  # 16
 print(pow(2, 3))  # 8
