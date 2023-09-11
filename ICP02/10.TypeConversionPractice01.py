@@ -1,4 +1,4 @@
 name = 'Julior'
-age = 19
+age = 18
 print('My name is ', name, ', and', age, 'years old')
 

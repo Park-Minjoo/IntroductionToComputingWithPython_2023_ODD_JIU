@@ -7,5 +7,5 @@ print(b) # 1.5
 c = str(3)
 print(c) # 3
 
-d = int('2.5')
+d = int(float(('2.5')))
 print(d) # Q1.
