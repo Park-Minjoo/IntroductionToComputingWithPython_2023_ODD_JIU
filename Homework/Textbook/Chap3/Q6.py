@@ -2,6 +2,8 @@
 
 # Write your code here
 
-
-prob(1)
-prob(2)
+def prob(n):
+    chance = 2**-n
+    return chance
+print(prob(1))
+print(prob(2))
