@@ -1,6 +1,12 @@
-def average(n1, n2):
-    avg = (n1 + n2) / 2
-    print(avg)
+def noVowel(s):
+    vowels = set('aeiouAEIOU')
+    # print(vowels)
+    if set(s).intersection(vowels):
+        return False
+    else:
+        return True
 
-average(1, 3)
-average(2, 3.5)
+
+print(noVowel('crypt'))
+print(noVowel('cwm'))
+print(noVowel('car'))

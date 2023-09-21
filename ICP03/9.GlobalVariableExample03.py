@@ -7,3 +7,4 @@ def foo():
 
 foo()
 print(str1)
+

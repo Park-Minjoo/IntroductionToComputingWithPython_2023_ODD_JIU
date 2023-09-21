@@ -1,7 +1,6 @@
-def plus(n1, n2):
-    sum = n1 + n2
-    print(sum)
+def average(n1, n2):
+    avg = (n1 + n2) / 2
+    print(avg)
 
-
-plus(1, 3)
-plus(100, 200)
+average(1, 3)
+average(2, 3.5)

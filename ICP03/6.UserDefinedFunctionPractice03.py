@@ -1,12 +1,15 @@
-def noVowel(s):
-    vowels = set('aeiouAEIOU')
-    # print(vowels)
-    if set(s).intersection(vowels):
-        return False
+def max_num(a, b, c):
+    if (a >= b) and (a >= c):
+        largest = a
+    elif (b >= a) and (b >= c):
+        largest = b
     else:
-        return True
+        largest = c
+    return largest
 
 
-print(noVowel('crypt'))
-print(noVowel('cwm'))
-print(noVowel('car'))
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+num3 = int(input("Enter the third number: "))
+
+print("The largest number is", max_num(num1, num2, num3))

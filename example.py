@@ -1,6 +1,6 @@
-a = 3
-def g(x):
-    x = 5
-    return x
+def plus(n1, n2):
+    sum = n1 + n2
+    print(sum)
 
-print((a))
+plus(1, 2) # function call 1
+plus(100, 130) # function call 2
