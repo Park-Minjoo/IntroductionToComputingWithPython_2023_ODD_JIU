@@ -1,0 +1,5 @@
+print(list(range(10)))
+print(list(range(4, 20)))
+print(list(range(1, 20, 3)))
+print(list(range(100, 20, -5)))
+print(list(range(1, 15, 2)))
