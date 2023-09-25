@@ -1,6 +1,12 @@
-def plus(n1, n2):
-    sum = n1 + n2
-    print(sum)
+# Function to withdraw money
+def withdraw(money):
+    global balance
+    ...
+# Function to deposit money
+def deposit(money):
+    global balance
+    balance = balance + money
 
-plus(1, 2) # function call 1
-plus(100, 130) # function call 2
+# Main Program
+... = int(input("Enter the initial balance: "))
+...
