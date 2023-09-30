@@ -7,4 +7,4 @@ while i < j:
     n += 2
 
     print("i =", i)
-    print("j =", j)
+    print("n =", n)
