@@ -1,4 +1,9 @@
-i = 0
+name = "Park Minjoo"
+count = 0
 
-for i in range(1, 11):
-    print(' ' * (10 - i), '*' * (i * 2), ' ' * (10 - i))
+for char in name:
+    print(char)
+    if char != ' ':
+        count += 1
+
+print("The total count:", count)
