@@ -1,3 +1,2 @@
-import tkinter as tk
-window = tk.Tk()
-window.mainloop()
+from tkinter import Tk
+root = Tk()
