@@ -1,0 +1,5 @@
+As I mention in Chapter 2, everything in Python, from numbers to modules, is an object.
+However, Python hides most of the object machinery by means of special syntax.
+You can type num = 7 to create a object of type integer with the value 7, and assign an object reference to the name num.
+The only time you need to look inside objects is when you want to make your own or modify the behavior of existing objects.
+You’ll see how to do both in this chapter.
