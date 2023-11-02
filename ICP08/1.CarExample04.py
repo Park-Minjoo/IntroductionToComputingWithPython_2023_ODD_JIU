@@ -2,14 +2,18 @@ class Car:
     def __init__(self, model, price):
         self.model = model
         self.price = price
+class AutoDriving:
+    def check(self):
+        print('Auto driving is enabled.')
 
-class Hyundai(Car):
+class Hyundai(Car, AutoDriving):
+    def __init__(self, model, price, color):
+        super().__init__(model, price)
+        self.color = color
     def show_battery(self, per):
         print(f'Battery {per}% left.')
-    def auto_driving(self, vel):
-        print(f'Auto-driving mode with a speed of {vel} km/h.')
 
-c1 = Car('Black', 200000)
-c2 = Hyundai('Kona Electric', 100000)
 
-c2.show_battery(10)
+c1 = Hyundai('Kota Electric', 100000, 'Silver')
+c1.check()
+
