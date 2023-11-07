@@ -10,5 +10,5 @@ class Hyundai:
     def show_battery(self, per):
         print(f'Battery {per}% left.')
 
-mytoyota = Hyundai('Hyundai Kona Eletric', '100000')
-mytoyota.show_battery(12)
+mycar = Hyundai('Hyundai Kona Eletric', '100000')
+mycar.show_battery(12)

@@ -7,7 +7,7 @@ class AutoDriving:
         print('Auto driving is enabled.')
 class Convertible:
     def open(self):
-        print('The roof is opening...')
+        print('The sunroof is opening...')
 class Hyundai(Car, AutoDriving, Convertible):
     def __init__(self, model, price, color):
         super().__init__(model, price)
