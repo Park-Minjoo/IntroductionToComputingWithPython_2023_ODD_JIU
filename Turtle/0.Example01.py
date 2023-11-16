@@ -1,4 +1,4 @@
 import turtle
-turtle.position()
-turtle.forward(150)
-turtle.back(300)
+t = turtle.Turtle()
+t.forward(200)
+
